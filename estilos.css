@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+    
+}
+
+
+
+header{
+    height: 80px;
+    background-color: rgb(69, 71, 95);
+    padding: 20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.logo .ol{
+    color: #fff;
+}
+.logo .od{
+    display: flex;
+    padding-left: 90px;
+    font-size: 15px;
+    font-weight: 15px;
+}
+.barra{
+    float: right;
+}
+.barra ul{
+    list-style: none;
+}
+.barra ul li{
+    display: inline-block;
+}
+.barra a{
+    color: #fff;
+}
+.barra a:hover{
+    color: #0c8da3;
+}
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #121213d0;
+    background-image: url(imagenes/diente_particula.jpg);
+    background-size: cover;
+}
+.call{
+    width: 50%;
+    padding: 20px;
+    float: left;
+    margin: 30px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.call p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.call a{
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px;
+    color: #0545bd;
+    border: 2.5px solid rgb(54, 123, 212);
+    color: #3d5deb;
+    border-radius: 5px;
+    
+}
+.call a:hover{
+    background-color: #0c77be;
+    color: black;
+    border-color: #0c77be;
+    box-shadow: 6px 5px 15px;
+}
+footer{
+    background-color: rgb(28, 43, 61);
+    text-align: center;
+    font-size: 25px; 
+}
+.redes{
+    color: rgb(23, 173, 173);
+    font-size: 25px;
+}
+.redes a:visited{
+    color: rgb(23, 173, 173);
+}
+
+
+
+/*ESTILOS SOBRE NOSOTROS*/
+
+
+body{
+    background-color: #22454b;
+}
+
+.nosotros{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #121213d0;
+    background-image: url(imagenes/fondo\ profesionales.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.nosotros div{
+    padding: 50px 2px 2px 15px;
+    margin: 50px 2px 2px 15px;
+    float: left;
+    width: 50%;
+
+}
+.nosotros div h2{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.nosotros div p{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.nosotros div a{
+    font-size: 25px;
+}
+.nosotros div a:visited{
+    color: rgb(23, 173, 173)
+}
+.nosotros div a:hover{
+    background-color: #1697a8;
+    color: black;
+    border-color: #15d1d1;
+    box-shadow: 6px 5px 15px;
+    border-radius: 5px;
+}
+.div1{
+    background-color: #999A9E;
+    height: 700px;
+    width: 100%;
+    background-image: url(imagenes/diente\ flores\ rojas\ editado.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div1:before {
+    content: "";
+    width: 100%;
+    height: 700px;
+    position: absolute;
+
+    background: linear-gradient(90deg, black, white);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/*No puedo mandar el gradiente de color para el fondo con el z-indez, por mas que le de valores negativos no se va hacia atras*/
+.div1 ul{
+    list-style: none;
+}
+
+.div2 {
+    height: 700px;
+
+}
+.box{
+    width: 48%;
+    height: auto;
+    float: left;
+    margin: 200px 5px 5px 100px;
+}
+
+.box h3{
+    font-size: 50px;
+    padding: 2px 2px 35px 20px;
+}
+.box ul li{
+    font-size: 22px;
+    padding: 10px;
+    font-weight:lighter;
+}
+.div2 {
+    background-color: #BEBEBE;
+    height: 700px;
+    width: 100%;
+    background-image: url(imagenes/fondo\ mandibla\ flores\ editado.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div2:before{
+    content:"";
+    width: 100%;
+    height: 700px;
+    position: absolute;
+
+    background: linear-gradient(90deg,black, white);
+    opacity: 0.4;
+    z-index: -1;
+    
+}
+.box h3{
+    font-weight: bold;
+}
+.box ul li{ 
+    list-style: none;
+    font-weight: 550;
+}
+
+
+
+
+/*ESTILOS SERVICIOS*/
+
+.servicios {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url(imagenes/dientes\ flores\ azules.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.nuestros_servicios{
+    float: left;
+    width: 60%;
+    margin: 70px;
+    margin-top: 20px;
+
+}
+.nuestros_servicios h2{
+    font-size: 50px;
+    padding: 20px;
+
+}
+.nuestros_servicios ul{
+    list-style: none;
+}
+.nuestros_servicios ul li{
+    font-size: 25px;
+    padding: 7px;
+}
+.trabajos{
+    background-color: #999A9E;
+    height: 700px;
+    width: 100%;
+    
+}
+
+.ciru{
+    background-image: url(imagenes/heramientas\ con\ flores\ ciru.jpeg);
+    background-color: #fff;
+    background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right 170px;
+
+}
+.ciru h3{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+.ciru p{
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.ciru a{
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.perio {
+    background-image: url(imagenes/herramientas\ con\ flores\ perio.jpeg);
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.perio h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.perio p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.perio a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.endo {
+    background-image: url(imagenes/endo\ flores.jpeg);
+    background-color: #DEDEDE;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.endo h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.endo p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.endo a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.protesis {
+    background-image: url(imagenes/boca\ con\ flores\ rojas.jpeg);
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.protesis h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.protesis p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.protesis a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.estomato {
+    background-image: url(imagenes/microscopio\ con\ flores.jpeg);
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.estomato h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.estomato p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.estomato a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+.estetica{
+    background-image: url(imagenes/sonrisa\ flores\ rojas.jpeg);
+    background-color: #fff;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right 150px;
+}
+
+.estetica h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.estetica p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.estetica a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.cod {
+    background-image: url(imagenes/herramientas\ con\ flores\ cod.jpeg);
+    background-color: #DEDEDE;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 170px;
+}
+
+.cod h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.cod p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cod a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.ortodoncia {
+    background-image: url(imagenes/ortodoncia1.jpeg);
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.ortodoncia h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.ortodoncia p {
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.ortodoncia a {
+    display: flex;
+    margin: 300px 20px 20px 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.nuestros_servicios ul li a:hover{
+        background-color: #1697a8;
+        color: black;
+        border-color: #15d1d1;
+        box-shadow: 6px 5px 15px;
+        border-radius: 5px;
+}
+
+
+.comunicacion{
+    display: inline-block;
+    width: 180px;
+
+}
+.nuestros_servicios ul li a:link {
+    color: black;
+}
+.nuestros_servicios ul li a:visited{
+    color: black;
+}
+
+.comunicacion:link{
+    color: black;
+}
+
+.comunicacion:visited {
+    color: black;
+}
+
+.comunicacion:hover {
+    background-color: #1697a8;
+    color: black;
+    border-color: #15d1d1;
+    box-shadow: 6px 5px 15px;
+    border-radius: 5px;
+}
+
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #0c8da3;
+    color: black;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+/*CADA VEZ QUE ESCRIBO EL SIGUIENTE CODIGO ME DEJA DE FUNCIONAR EL HOVER QUE PUSE EN EL LINK DE ¡CONTACTENOS! (CLASE=''COMUNICACION'') YA SE QUE ES POR EL Z-INDEX, PERO LOE DOY UN VALOR NEGATIVO DE -1 PARA QUE SE VAYA AL FANDO PERO NO CAMBIA NADA, POR QUE SERA? 
+
+.trabajos:before{
+    content: "";
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+    background: linear-gradient(90deg, black, white);
+    opacity: 0,3;
+    z-index: -1;
+}*/
+
+
+
+
+
+
+
+/*ESTILOS CONTACTO*/
+
+
+.contacto {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url(imagenes/simbolo\ de\ medicina\ flores\ azules.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.contacto2{
+    
+    width: 50%;
+    float: left;
+    margin: 30px 30px 30px 100px;
+}
+
+.contacto2 h3{
+    font-size: 30px;
+    float: left;
+    margin: 2px;
+    padding: 50px;
+}
+.contacto2 label{
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+.contacto2 input{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*ESTILOS UBICACION*/
+
+
+.ubicacion {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url(imagenes/Arte\ dental\ Dientes\ Muela.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.ubicacion2 h2{
+    position: relative;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0px 100px 20px 200px;
+}
+.mapa{
+    height: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
